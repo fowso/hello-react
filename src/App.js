@@ -1,19 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import { Fragment } from 'react';
+
 
 function App() {
-  const name = '리엑트';
-
-  const style = {
-    backgroundColor: 'black',
-    color: 'aqua',
-    fontSize: '48px',
-    fontWeight: 'bold',
-    padding: 16
-    };
-  return (<div style={style}>{name}</div>);
-  
-}
+  const name = '리액트';
+  return (
+    <div>
+      {/* 주석은 이렇게 씁니다. */}
+      <div className='react'>{name}</div>
+    </div>
+    /**fdfdfd */
+    // 주석입니다
+    
+  );
+};
 
 export default App;
